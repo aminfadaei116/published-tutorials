@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+runs/
+qwen2.5-7b-dolly-lora/
+qwen2.5-7b-dolly-merged/
+*.safetensors

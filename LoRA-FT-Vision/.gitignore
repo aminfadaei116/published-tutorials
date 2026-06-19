@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+runs/
+qwen2.5-vl-3b-chartqa-lora/
+qwen2.5-vl-3b-chartqa-merged/
+*.safetensors

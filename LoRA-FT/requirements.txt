@@ -1,0 +1,13 @@
+# Core stack for LoRA / QLoRA fine-tuning.
+# The blog targets these minimum versions; newer ones work too (tested with
+# transformers 5.12, trl 1.6, peft 0.19, bitsandbytes 0.49).
+torch>=2.2
+transformers>=4.46
+trl>=0.12
+peft>=0.13
+datasets>=3.0
+accelerate>=1.0
+bitsandbytes>=0.44
+tensorboard
+# Optional, only needed if you pass --attn flash_attention_2
+# flash-attn>=2.5

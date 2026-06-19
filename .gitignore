@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training artifacts (adapters, merged models, logs)
+runs/
+*-lora/
+*-merged/
+*.safetensors
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
