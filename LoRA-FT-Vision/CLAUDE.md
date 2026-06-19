@@ -3,7 +3,7 @@
 Runnable companion to the guide **"Fine-Tuning a Vision-Language Model with LoRA
 and QLoRA: A Hands-On Guide"**
 ([finetuning-vlm-lora-qlora-guide.md](finetuning-vlm-lora-qlora-guide.md)).
-The vision (image + text → text) counterpart to [../LoRA-FT](../LoRA-FT).
+The vision (image + text → text) counterpart to [../LoRA-FT-Language](../LoRA-FT-Language).
 
 ## What's here
 

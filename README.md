@@ -8,10 +8,10 @@ can read the post with the code open next to it.
 
 | Folder | Topic | Post |
 |---|---|---|
-| [LoRA-FT](LoRA-FT) | Fine-tuning a text LLM with **LoRA / QLoRA** — train an adapter on an instruction dataset, run inference, merge for deployment. | [finetuning-lora-qlora-guide.md](LoRA-FT/finetuning-lora-qlora-guide.md) |
+| [LoRA-FT-Language](LoRA-FT-Language) | Fine-tuning a text LLM with **LoRA / QLoRA** — train an adapter on an instruction dataset, run inference, merge for deployment. | [finetuning-lora-qlora-guide.md](LoRA-FT-Language/finetuning-lora-qlora-guide.md) |
 | [LoRA-FT-Vision](LoRA-FT-Vision) | The **vision-language** counterpart — fine-tune an image+text → text model with LoRA / QLoRA. | [finetuning-vlm-lora-qlora-guide.md](LoRA-FT-Vision/finetuning-vlm-lora-qlora-guide.md) |
 
-`LoRA-FT-Vision` is the vision version of `LoRA-FT`: the method is the same; what
+`LoRA-FT-Vision` is the vision version of `LoRA-FT-Language`: the method is the same; what
 differs is loading an image-text model, using a processor instead of a
 tokenizer, image-carrying datasets, and a few VLM-specific training settings.
 
@@ -36,7 +36,7 @@ test that runs in a few minutes, and the full training recipe. A GPU is required
 for the 4-bit (QLoRA) paths.
 
 ```bash
-cd LoRA-FT          # or LoRA-FT-Vision
+cd LoRA-FT-Language   # or LoRA-FT-Vision
 cat README.md
 ```
 

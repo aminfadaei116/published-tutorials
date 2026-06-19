@@ -5,7 +5,7 @@ Runnable code for the guide
 Fine-tune a **vision-language model** (image + text → text) with LoRA / QLoRA,
 run inference on an image, and merge the adapter back into the base model.
 
-This is the vision counterpart to the text-only `LoRA-FT` repo. The method is
+This is the vision counterpart to the text-only `LoRA-FT-Language` repo. The method is
 the same; the moving parts that differ are: you load an image-text model, you
 use a **processor** instead of a tokenizer, your dataset carries images, and a
 few TRL settings are VLM-specific (`packing=False`, prompt/completion loss).
@@ -21,7 +21,7 @@ few TRL settings are VLM-specific (`packing=False`, prompt/completion loss).
 This reuses the same conda env as the text repo, plus a couple of vision extras:
 
 ```bash
-conda activate LoRA_FT          # the env from ../LoRA-FT
+conda activate LoRA_FT          # the env from ../LoRA-FT-Language
 pip install -r requirements.txt
 ```
 
