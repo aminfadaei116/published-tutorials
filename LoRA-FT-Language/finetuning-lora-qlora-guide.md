@@ -140,7 +140,7 @@ print(dataset[0]["text"])
 
 The output of that `print` is the single most important thing to check before you launch a run. If the special tokens (`<|im_start|>`, `<|im_end|>` for Qwen) are missing or duplicated, the model will learn the wrong format and behave strangely at inference time.
 
-`[IMAGE 2 — place here]`
+![Formatted training sample with Qwen chat special tokens](image2_dataset_sample.png)
 > **Image 2.** A screenshot of your own `print(dataset[0]["text"])` output, showing the formatted training sample with chat special tokens. Source: your own terminal / notebook output. (This is the best "sanity check" image for readers to reproduce.)
 
 ---
@@ -232,7 +232,7 @@ While it runs, watch two things:
 - **Training loss** should fall and then flatten. If it is flat from step 0, your learning rate is too low or the data formatting is broken. If it explodes to `NaN`, lower the learning rate or switch `bf16`/`fp16` to match your hardware.
 - **GPU memory** (`nvidia-smi`). If you hit out-of-memory, the cheapest fixes in order are: lower `per_device_train_batch_size`, lower `max_length`, then raise `gradient_accumulation_steps` to keep the effective batch size the same.
 
-`[IMAGE 3 — place here]`
+![Training loss curve: a sharp drop in the first ~20 steps, then a flat plateau](image3_loss_curve.png)
 > **Image 3.** Your training loss curve from TensorBoard (run `tensorboard --logdir qwen2.5-7b-dolly-lora`). A healthy curve drops quickly in the first few hundred steps and then flattens. Source: your own TensorBoard, or Weights & Biases if you set `report_to="wandb"`.
 
 ---
