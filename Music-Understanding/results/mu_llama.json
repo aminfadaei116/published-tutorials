@@ -1,0 +1,90 @@
+{
+  "model": "mu_llama",
+  "prompt": "You are an expert music analyst. Listen to this music very carefully and give a detailed, structured analysis. Cover each of the following:\n1. Instrumentation: every instrument you can identify, and the role each plays (lead, accompaniment, bass, percussion, etc.).\n2. Genre and subgenre, plus any stylistic influences and the likely era or period.\n3. Tempo in BPM, the time signature, and the overall rhythmic feel.\n4. Key and tonality (major/minor), and any notable harmonic or melodic features.\n5. Dynamics, articulation, and performance techniques.\n6. Mood, emotion, and tone — and how they evolve over the excerpt.\n7. Structure and form.\n8. Production and recording qualities (acoustic vs. electronic, live vs. studio).\nIf there are vocals, describe the voice, delivery, language, and lyrics. Be specific, descriptive, and confident.",
+  "meta": {
+    "model_path": "/shared/amin/code/music-persona/third_party/MU-LLaMA/MU-LLaMA/mu_ckpts/checkpoint.pth",
+    "device": "cuda:0"
+  },
+  "results": [
+    {
+      "category": "blues",
+      "name": "blues.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/blues/blues.00010.wav",
+      "description": "The music is described as having a jazzy feel, with a strong emphasis on the trumpet and saxophone.",
+      "seconds": 1.91,
+      "error": null
+    },
+    {
+      "category": "classical",
+      "name": "classical.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/classical/classical.00010.wav",
+      "description": "The music is a classical piece with a focus on strings and a violin.",
+      "seconds": 0.81,
+      "error": null
+    },
+    {
+      "category": "country",
+      "name": "country.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/country/country.00010.wav",
+      "description": "The music is a classical piece with a male vocalist.",
+      "seconds": 0.86,
+      "error": null
+    },
+    {
+      "category": "disco",
+      "name": "disco.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/disco/disco.00010.wav",
+      "description": "The music is a rock song with a fast tempo, upbeat rhythm, and a catchy melody.",
+      "seconds": 1.01,
+      "error": null
+    },
+    {
+      "category": "hiphop",
+      "name": "hiphop.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/hiphop/hiphop.00010.wav",
+      "description": "The music is upbeat and energetic.",
+      "seconds": 0.58,
+      "error": null
+    },
+    {
+      "category": "jazz",
+      "name": "jazz.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/jazz/jazz.00010.wav",
+      "description": "The music is a slow and mournful classical piece with a melancholic tone.",
+      "seconds": 1.17,
+      "error": null
+    },
+    {
+      "category": "metal",
+      "name": "metal.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/metal/metal.00010.wav",
+      "description": "The music is a heavy metal song with a fast tempo, loud instrumentation, and aggressive vocals.",
+      "seconds": 1.41,
+      "error": null
+    },
+    {
+      "category": "pop",
+      "name": "pop.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/pop/pop.00010.wav",
+      "description": "The music is a mix of folk and country, with a touch of blues. The vocalist's voice is smooth and soulful, with a hint of grit. The lyrics are about love and heartbreak, with a touch of nostalgia.",
+      "seconds": 2.29,
+      "error": null
+    },
+    {
+      "category": "reggae",
+      "name": "reggae.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/reggae/reggae.00010.wav",
+      "description": "The music is a solo performance, with the male vocalist singing in a powerful and emotive style.",
+      "seconds": 1.13,
+      "error": null
+    },
+    {
+      "category": "rock",
+      "name": "rock.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/rock/rock.00010.wav",
+      "description": "The music is a blend of jazz and blues, with a touch of folk and country. The tempo is slow and steady, with a strong rhythmic feel. The key is major, with a smooth and melodic tone. The vocals are sung by a male voice with a soulful and emotive delivery. The lyrics are about love, heartbreak, and longing.",
+      "seconds": 4.41,
+      "error": null
+    }
+  ]
+}

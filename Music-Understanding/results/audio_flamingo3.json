@@ -1,0 +1,90 @@
+{
+  "model": "audio_flamingo3",
+  "prompt": "You are an expert music analyst. Listen to this music very carefully and give a detailed, structured analysis. Cover each of the following:\n1. Instrumentation: every instrument you can identify, and the role each plays (lead, accompaniment, bass, percussion, etc.).\n2. Genre and subgenre, plus any stylistic influences and the likely era or period.\n3. Tempo in BPM, the time signature, and the overall rhythmic feel.\n4. Key and tonality (major/minor), and any notable harmonic or melodic features.\n5. Dynamics, articulation, and performance techniques.\n6. Mood, emotion, and tone — and how they evolve over the excerpt.\n7. Structure and form.\n8. Production and recording qualities (acoustic vs. electronic, live vs. studio).\nIf there are vocals, describe the voice, delivery, language, and lyrics. Be specific, descriptive, and confident.",
+  "meta": {
+    "model_id": "nvidia/audio-flamingo-3-hf",
+    "device": "cuda:0"
+  },
+  "results": [
+    {
+      "category": "blues",
+      "name": "blues.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/blues/blues.00010.wav",
+      "description": "The music is a blues track featuring a soulful male vocalist. The instrumentation includes a guitar, piano, and drums, creating a classic blues sound. The tempo is moderate, with a 4/4 time signature, and the rhythm is steady and laid-back. The key is F minor, which contributes to the melancholic and emotive tone. The vocals are expressive and heartfelt, with a raw, authentic quality that is characteristic of traditional blues music.",
+      "seconds": 3.16,
+      "error": null
+    },
+    {
+      "category": "classical",
+      "name": "classical.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/classical/classical.00010.wav",
+      "description": "The music is a classical piece featuring a string ensemble with a prominent violin lead. The genre is classical, likely from the Romantic era, characterized by expressive melodies and rich harmonies. The tempo is moderate, around 105 BPM, with a 4/4 time signature, providing a steady rhythmic foundation. The key is Bb major, with occasional modulations to related keys, creating a warm and uplifting atmosphere. The dynamics are varied, with moments of soft, lyrical passages and more intense, dramatic sections. The articulation is precise, with a focus on legato and staccato techniques. The overall mood is elegant and emotive, with a sense of grandeur and sophistication. The structure follows a traditional classical form, with clear sections and development. The production quality is high, with a clear and balanced mix that highlights the nuances of the performance.",
+      "seconds": 4.21,
+      "error": null
+    },
+    {
+      "category": "country",
+      "name": "country.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/country/country.00010.wav",
+      "description": "The song features a male vocalist with a warm, expressive tone, delivering heartfelt lyrics in English. The vocal delivery is emotive, with a gentle, melodic phrasing that complements the song's nostalgic and reflective mood.",
+      "seconds": 1.87,
+      "error": null
+    },
+    {
+      "category": "disco",
+      "name": "disco.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/disco/disco.00010.wav",
+      "description": "The music is a soulful funk track with a lively tempo of 105 BPM and a 4/4 time signature. It features a rich blend of instruments including bass, drums, guitar, and keyboards, creating a vibrant and rhythmic soundscape. The genre is a fusion of soul and funk, with stylistic influences from the 1970s. The key is Db major, and the harmonic structure includes a mix of major and minor chords, contributing to the track's dynamic and engaging feel. The performance is energetic and expressive, with a strong emphasis on rhythm and groove. The mood is upbeat and joyful, with a sense of nostalgia and warmth. The structure follows a typical verse-chorus format, with a bridge section providing contrast and variety. The production quality is high, with a clear and balanced mix that highlights each instrument's contribution to the overall sound.",
+      "seconds": 4.1,
+      "error": null
+    },
+    {
+      "category": "hiphop",
+      "name": "hiphop.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/hiphop/hiphop.00010.wav",
+      "description": "The music is a hip-hop track with a tempo of approximately 95 BPM and a 4/4 time signature. It features a blend of electronic and acoustic elements, with a prominent bassline and rhythmic drum patterns. The key is C minor, and the chord progression includes G# major, A# major, E major, and D# major. The mood is energetic and assertive, with a strong rhythmic drive. The structure follows a verse-chorus format, with a bridge section providing contrast. The production quality is high, with a polished, modern sound.",
+      "seconds": 3.01,
+      "error": null
+    },
+    {
+      "category": "jazz",
+      "name": "jazz.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/jazz/jazz.00010.wav",
+      "description": "This is a jazz piece featuring a saxophone as the lead instrument, accompanied by a rhythm section that includes piano, bass, and drums. The tempo is moderate, around 80 BPM, with a 4/4 time signature. The key is C major, and the harmonic structure includes a mix of major and minor chords, creating a rich and complex sound. The performance is dynamic and expressive, with a focus on improvisation and interaction between the musicians. The overall mood is sophisticated and introspective, with a touch of melancholy. The structure follows a typical jazz format, with a head arrangement followed by solos and a return to the head. The production quality is high, with a clear and balanced mix that highlights each instrument's unique timbre and role in the ensemble.",
+      "seconds": 3.5,
+      "error": null
+    },
+    {
+      "category": "metal",
+      "name": "metal.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/metal/metal.00010.wav",
+      "description": "The music is a fast-paced Norwegian Black Metal track with a tempo of approximately 170 BPM and a 4/4 time signature. It features aggressive guitar riffs, rapid drumming, and harsh vocals. The genre is Norwegian Black Metal, characterized by its raw, intense sound and dark themes. The key is F# minor, which contributes to the ominous and intense atmosphere. The structure includes an intro, verse, and chorus, with a focus on creating a powerful and energetic sound. The production quality is high, with a clear and balanced mix that highlights the aggressive instrumentation and vocals.",
+      "seconds": 2.84,
+      "error": null
+    },
+    {
+      "category": "pop",
+      "name": "pop.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/pop/pop.00010.wav",
+      "description": "Instrumentation: The track features a blend of acoustic and electric guitars, providing a warm, melodic foundation. The rhythm section, consisting of bass and drums, offers a steady, laid-back groove. The piano adds subtle harmonic depth, while the vocals are expressive and emotive, delivering heartfelt lyrics in English. Genre and Subgenre: The track falls under the singer-songwriter genre, with influences from classic rock and pop. The style is reminiscent of the 1990s, characterized by its introspective lyrics and melodic sensibility. Tempo and Rhythmic Feel: The tempo is moderate, around 108 BPM, with a 4/4 time signature, creating a relaxed and steady rhythmic feel. Key and Tonality: The song is in A major, with a bright and uplifting tonality. The chord progression includes a mix of major and minor chords, contributing to the song's emotional depth. Dynamics, Articulation, and Performance Techniques: The dynamics are relatively consistent, with a focus on expressive vocal delivery and subtle instrumental nuances. The performance is intimate and personal, with a clear emphasis on the lyrics and melody. Mood, Emotion, and Tone: The mood is reflective and nostalgic, with a sense of longing and introspection. The tone is warm and inviting, drawing the listener into the emotional landscape of the song. Structure and Form: The song follows a verse-chorus structure, with a bridge section providing contrast and variation. The production is clean and polished, with a focus on the natural sound of the instruments and vocals.",
+      "seconds": 6.25,
+      "error": null
+    },
+    {
+      "category": "reggae",
+      "name": "reggae.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/reggae/reggae.00010.wav",
+      "description": "The music is a soulful reggae track featuring a male vocalist with a warm, expressive voice. The tempo is moderate, around 120 BPM, with a steady 4/4 rhythm. The instrumentation includes guitar, bass, and drums, creating a laid-back, rhythmic groove. The song is in G major, with a chord progression that emphasizes the I, IV, and V chords, typical of reggae music. The vocals are delivered in English, with lyrics that convey a message of resilience and hope. The overall mood is uplifting and positive, with a classic reggae feel.",
+      "seconds": 2.83,
+      "error": null
+    },
+    {
+      "category": "rock",
+      "name": "rock.00010.wav",
+      "path": "/shared/amin/code/music-persona/experiment/samples/rock/rock.00010.wav",
+      "description": "The song features a female vocalist with a warm, expressive tone. The performance is emotive and dynamic, with a clear and engaging delivery. The lyrics are in English, and the song's structure follows a verse-chorus format, with a bridge section providing contrast. The instrumentation includes acoustic guitar, piano, and subtle percussion, creating a rich, layered sound. The tempo is moderate, around 80 BPM, with a 4/4 time signature, giving the song a steady, approachable rhythm. The key is D major, with occasional modulations to related keys, adding harmonic interest. The overall mood is uplifting and introspective, with a blend of folk and pop influences. The production quality is high, with a balanced mix and clear, polished sound.",
+      "seconds": 4.65,
+      "error": null
+    }
+  ]
+}
